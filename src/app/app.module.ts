@@ -10,12 +10,14 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { HomeComponent } from './page/home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { PersonalComponent } from './page/personal/personal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SidenavComponent,
-    HomeComponent
+    HomeComponent,
+    PersonalComponent
   ],
   imports: [
     BrowserModule,
