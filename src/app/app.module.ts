@@ -12,12 +12,24 @@ import { HomeComponent } from './page/home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { GallaryComponent } from './page/gallary/gallary.component';
 
+import { PersonalComponent } from './page/personal/personal.component';
+import { ContactComponent } from './page/contact/contact.component';
+
+
 @NgModule({
   declarations: [
     AppComponent,
     SidenavComponent,
     HomeComponent,
+
     GallaryComponent
+
+
+    PersonalComponent
+
+    ContactComponent
+
+
   ],
   imports: [
     BrowserModule,
